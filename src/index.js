@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from "./ToDoListComponents/App";
 
-const App = () => <p>Hello World</p>
 
 ReactDOM.render(
     <App />,
