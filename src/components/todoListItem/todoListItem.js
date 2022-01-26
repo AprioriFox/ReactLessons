@@ -1,9 +1,9 @@
 import React from "react";
 
-const ToDoListItem = ({label}) => {
+const TodoListItem = ({label}) => {
     return(
         <span>{label}</span>
     )
 }
 
-export default ToDoListItem
+export default TodoListItem

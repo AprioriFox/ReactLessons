@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import ToDoStatusFilter from "./ToDoStatusFilter";
-import ToDoHeader from "./ToDoHeader";
-import ToDoSearch from "./ToDoSearch";
-import ToDoList from "./ToDoList";
-import ToDoListItem from "./ToDoListItem";
-
+import TodoHeader from "../todoHeader";
+import TodoList from "../todoList";
 
 const App = () => {
     const ToDos = [
@@ -18,8 +14,8 @@ const App = () => {
 
     return(
         <div>
-            <ToDoHeader />
-            <ToDoList todos ={ToDos} />
+            <TodoHeader />
+            <TodoList todos ={ ToDos } />
         </div>
     )
 }

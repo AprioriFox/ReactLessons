@@ -1,6 +1,6 @@
 import React from "react";
 
-const ToDoStatusFilter = () =>{
+const TodoStatusFilter = () =>{
     return(
         <div>
             <input type="button" value={'All'}/>
@@ -10,4 +10,4 @@ const ToDoStatusFilter = () =>{
     )
 }
 
-export default ToDoStatusFilter
+export default TodoStatusFilter

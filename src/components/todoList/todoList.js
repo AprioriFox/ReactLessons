@@ -1,9 +1,9 @@
-import ToDoListItem from "./ToDoListItem";
+import TodoListItem from "../todoListItem";
 import React from "react";
 
-const ToDoList = ({todos}) =>{
+const TodoList = ({todos}) =>{
     const elems = todos.map((item)=>{
-        return <li key={item.id}><ToDoListItem label ={item.label}/></li>
+        return <li key={item.id}><TodoListItem label ={item.label}/></li>
     })
 
     return (
@@ -15,4 +15,4 @@ const ToDoList = ({todos}) =>{
     )
 }
 
-export default ToDoList
+export default TodoList
